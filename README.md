@@ -1,14 +1,14 @@
 # isc2-IoT-AI-smart-tutorial
 The exercice for the ISC2 Tutorial on IoT and AI for Smart Cities
 # 1. Installation
-1a. If you have python3.6 and above (or you can install it) then you do not need to install the VM. 
+i. If you have python3.6 and above (or you can install it) then you do not need to install the VM. 
 You can directly install flower.
 
 >  `pip install flwr`
 >  `pip install tensorflow`
 
-1b. If you have good internet connection to be able to download 2.2G Virtual Machine. 
-Then please [download the virtual machine from here.] (https://filesender.renater.fr/?s=download&token=ee500acd-b64e-43c0-99fb-b0a890ccfb15 "VM download link")
+ii. If you have good internet connection to be able to download 2.2G Virtual Machine. 
+Then please [download the virtual machine from here.](https://filesender.renater.fr/?s=download&token=ee500acd-b64e-43c0-99fb-b0a890ccfb15 "VM download link")
 It is a Linux virtual machine and we have already installed python3.9 and tensorflow for you.
 You will need to use Virtualbox software to run it. We have configured it to use 4 CPUs and 8GB of RAM. 
 Please change them according to the capabilities of yoru PC. More is better, 
