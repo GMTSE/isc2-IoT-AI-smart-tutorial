@@ -11,6 +11,7 @@ You can directly install flower.
 Clone the flower [Github repository](https://github.com/adap/flower "Github Flower")
 
 ii. If you have good internet connection to be able to download 2.2G Virtual Machine. 
+
 Then please [download the virtual machine from here.](https://filesender.renater.fr/?s=download&token=ee500acd-b64e-43c0-99fb-b0a890ccfb15 "VM download link")
 
 It is a Linux virtual machine and we have already installed python3.9 and tensorflow for you.
@@ -39,7 +40,10 @@ Now you will see that 2 clients connect to server and start federated learning.
 Go to the folder advanced_tensorflow in the examples.
 
 i. Change the number of clients to 3
+
 ii. Change the number of rounds to 2
+
 iii. Try to compare the performance of different neural network models such as EfficientNetB0 with its version 2 and MobileNetv2
+
 iv. How can we check the amount of data that is sent to server? To know the network overhead?
 
