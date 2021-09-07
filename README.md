@@ -1,22 +1,60 @@
-# isc2-IoT-AI-smart-tutorial
-The exercise for the ISC2 Tutorial on IoT and AI for Smart Cities
+# Repository for ISC²'s Tutorial "AI for IoT and Smart Cities"
+
+This repository contains the exercise and slides for the ISC² Tutorial entitled "AI for IoT and Smart Cities".
+
+# Slides
+
+[Session1](/Slides/Session1.pdf "Slides for Session1")
+
+[Session2](/Slides/Session2.pdf "Slides for Session2")
+
+
 # 1. Installation
-i. If you have python3.6 and above (or you can install it) then you do not need to install the VM. 
-You can directly install flower.
+
+## Option1 (recommended): Work directly with Python on your machine
+
+### Preliminaries
+
+You need python3.6+ installed.
+
+### Optional
+
+If you want to preserve your Python installation from any modification, you can work in a Virtual Environment:
+
+- Install `venv` package for python. Example for Linux:
+> `apt install python3-venv`
+- Create a Virtual Environment (here the name is "isc2lab"):
+> `python -m venv isc2lab`
+- Activate this Virtual Environment:
+> `cd isc2lab/ && . ./bin/activate`
+
+Now all your work and package installations will occur inside this Virtual Env.
+
+BEWARE: if you close your terminal, then you have to re-activate the Virtual Env. again (last step above).
+
+### Install flower
 
 >  `pip install flwr`
 
+### Install TensorFlow
+
 >  `pip install tensorflow`
 
-Clone the flower [Github repository](https://github.com/adap/flower "Github Flower")
+### Optional
 
-ii. Skip this step if above worked. Otherwise if you have good internet connection to be able to download 2.2 GB Virtual Machine. 
+Clone or download the flower repository to get all the examples.
 
-Then please [download the virtual machine from here.](https://filesender.renater.fr/?s=download&token=ee500acd-b64e-43c0-99fb-b0a890ccfb15 "VM download link")
+See: [Github repository](https://github.com/adap/flower "Github Flower")
+
+## Option2: Work with the provided VirtualBox VM (if you do not have Python 3.6+ on your machine)
+
+NOTE: Beware, this requires to download a 2.2 GB file (the Virtual Machine image). You need a good internet connection. 
+
+[Download the virtual machine from here.](https://filesender.renater.fr/?s=download&token=ee500acd-b64e-43c0-99fb-b0a890ccfb15 "VM download link")
 
 It is a Linux virtual machine and we have already installed python3.9, tensorflow and flower for you.
 We used a compact virtual machine available from [iLabX](https://ilabxp.com/download-the-vlab/ "iLabX") of Technical University of Munich (TUM).
-Then we installed the later software on it.
+Then we installed the latter software on it.
 
 You will need to use [Virtualbox software](https://www.virtualbox.org/ "VirtualBox") to run it. 
 We have configured it to use 4 CPUs and 8GB of RAM. 
@@ -26,11 +64,12 @@ but it should not exceed your PC's capabilties.
 
 Network settings are set to bridge mode. Sometimes NAT mode is better and you may change it. (on Virtualbox: settings-->network)
 
-**When the VM runs, then please do not select factory reset!** as it will delete python3.6, tensorflow and flower.
+**When the VM runs, then please do not select factory reset!** as it will delete python3.9, tensorflow and flower.
 
 After the VM is running on the right you can change keyboard settings by clicking on the keyboard icon (right and below).
 
 # 2. Try Quickstart tensorflow example
+
 i. Open 3 terminals
 
 ii. go to the folder quickstart_tensorflow in all those 3 terminals
@@ -42,17 +81,16 @@ iii. On one terminal type (on VM we have python3.9, but please use your own vers
 iv. On 2 other terminals type 
 >  `python3.9 client.py`
 
-Now you will see that 2 clients connect to server and start federated learning.
+Now you will see that 2 clients connect to server and start Federated Learning.
 
-# 3. Exercise: Playing with Federated learning parameters
+# 3. Exercise: Playing with Federated Learning parameters
 
-Go to the folder advanced_tensorflow in the examples.
+Go to the folder `examples/advanced_tensorflow` in the examples.
 
 i. Change the number of clients to 3
 
 ii. Change the number of rounds to 2
 
-iii. Try to compare the performance of different neural network models such as EfficientNetB0 with its version 2 and MobileNetv2
+iii. How can we check the amount of data that is sent to server (i.e. How to get the network overhead)?
 
-iv. How can we check the amount of data that is sent to server? To know the network overhead?
-
+iv. Try to compare the performance/network overhead of different neural network models such as EfficientNetB0 with its version 2 and MobileNetv2
