@@ -18,7 +18,7 @@ It is a Linux virtual machine and we have already installed python3.9 and tensor
 You will need to use [Virtualbox software](https://www.virtualbox.org/ "VirtualBox") to run it. 
 We have configured it to use 4 CPUs and 8GB of RAM. 
 
-Please change them according to the capabilities of your PC. More is better, 
+Please change the VM settings (on Virtualbox: settings-->system) according to the capabilities of your PC. More is better, 
 but it should not exceed your PC's capabilties.
 
 # 2. Try Quickstart tensorflow example
