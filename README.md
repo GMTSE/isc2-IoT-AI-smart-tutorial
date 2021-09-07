@@ -22,9 +22,11 @@ You will need to use [Virtualbox software](https://www.virtualbox.org/ "VirtualB
 We have configured it to use 4 CPUs and 8GB of RAM. 
 
 Please change the VM settings (on Virtualbox: settings-->system) according to the capabilities of your PC. More is better, 
-but it should not exceed your PC's capabilties.
+but it should not exceed your PC's capabilties. 
 
-**When the VM runs, then please do not select factory install!** as it will delete python3.6, tensorflow and flower.
+Network settings are set to bridge mode. Sometimes NAT mode is better and you may change it. (on Virtualbox: settings-->network)
+
+**When the VM runs, then please do not select factory reset!** as it will delete python3.6, tensorflow and flower.
 
 After the VM is running on the right you can change keyboard settings by clicking on the keyboard icon (right and below).
 
