@@ -10,7 +10,7 @@ You can directly install flower.
 
 Clone the flower [Github repository](https://github.com/adap/flower "Github Flower")
 
-ii. If you have good internet connection to be able to download 2.2 GB Virtual Machine. 
+ii. Skip this step if above worked. Otherwise if you have good internet connection to be able to download 2.2 GB Virtual Machine. 
 
 Then please [download the virtual machine from here.](https://filesender.renater.fr/?s=download&token=ee500acd-b64e-43c0-99fb-b0a890ccfb15 "VM download link")
 
