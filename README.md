@@ -1,5 +1,5 @@
 # isc2-IoT-AI-smart-tutorial
-The exercice for the ISC2 Tutorial on IoT and AI for Smart Cities
+The exercise for the ISC2 Tutorial on IoT and AI for Smart Cities
 # 1. Installation
 i. If you have python3.6 and above (or you can install it) then you do not need to install the VM. 
 You can directly install flower.
@@ -24,7 +24,7 @@ We have configured it to use 4 CPUs and 8GB of RAM.
 Please change the VM settings (on Virtualbox: settings-->system) according to the capabilities of your PC. More is better, 
 but it should not exceed your PC's capabilties.
 
-**When the VM runs, then please do not select factory install!** as it will delete python3.6, tensorflow and flower.
+<span style="color:red">s*When the VM runs, then please do not select factory install!** <\span> as it will delete python3.6, tensorflow and flower.
 
 After the VM is running on the right you can change keyboard settings by clicking on the keyboard icon (right and below).
 
