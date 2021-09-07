@@ -40,7 +40,7 @@ BEWARE: if you close your terminal, then you have to re-activate the Virtual Env
 
 >  `pip install tensorflow`
 
-### Optional
+### Get the example code
 
 Clone or download the flower repository to get all the examples.
 
