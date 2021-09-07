@@ -27,7 +27,7 @@ i. Open 3 terminals
 ii. go to the folder quickstart_tensorflow in all those 3 terminals
 >  `cd flower-main/examples/quickstart_tensorflow/`
 
-iii. On one terminal type (on VM we have python3.9 and use your own version if you are not using the VM)
+iii. On one terminal type (on VM we have python3.9, but please use your own version if you are not using the VM)
 >  `python3.9 server.py`
 
 iv. On 2 other terminals type 
