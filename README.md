@@ -4,9 +4,9 @@ This repository contains the exercise and slides for the ISC² Tutorial entitled
 
 # Slides
 
-[Session1](/Slides/Session1.pdf "Slides for Session1")
+[Session1](/Slides/Session1_slides.pdf "Slides for Session1")
 
-[Session2](/Slides/Session2.pdf "Slides for Session2")
+[Session2](/Slides/Session2_slides.pdf "Slides for Session2")
 
 
 # 1. Installation
